@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+       Student Enrollment Form
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 class="title">Student Enrollment Form</h1>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Full Name:</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>City:</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div>
+                        <label>Mobile No:</label>
+                        <input type="text" name="mobile" id="mobile">
+                    </div>
+                    <div>
+                        <label>Email Id:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Gender:</label>
+                        <input type="text" name="gender" id="gender">
+                    </div>
+                    <div>
+                        <label>Course:</label>
+                        <input type="text" name="course" id="course">
+                    </div>
+
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="REGISTER">
+                    </div>
+
+                </form>
+            </td>
+            <td>
+                <table class="list" id="studentList">
+                    <thead>
+                        <h2>Student Details</h2>
+                        <tr>
+                            <th>Full Name </th>
+                            <th>City </th>
+                            <th>Mobile No </th>
+                            <th>Email Id </th>
+                            <th>Gender </th>
+                            <th>Course </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
