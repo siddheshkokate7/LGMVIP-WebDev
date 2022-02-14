@@ -1,0 +1,107 @@
+h1{
+    color:rgb(67, 1, 129) ;
+    text-align: center;
+    font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h2{
+    color: rgb(91, 3, 117);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+body{
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body > table{
+    width:100%;
+    max-height: fit-content;
+    text-align: center;
+
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+    padding: 5px;
+    height: 20px;
+    border-collapse: collapse;
+    background-color:rgb(247, 238, 239);
+
+}
+
+td, th {
+    border: 1px solid black;
+    border: double;
+    text-align: left;
+    padding: 8px;
+   
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: rgb(250, 240, 249);
+ 
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    color: rgb(246, 247, 238);
+    background-color: rgb(88, 6, 110);
+
+   
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+
+a{
+    cursor: pointer;
+    width:30%;
+    margin-right:4px;
+    width:30%;
+    background-color:white;
+    color:red;
+    padding: 8px 12px;
+    margin:8px 0;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+
+
+}
+
+label.validation-error{
+    color:  rgb(255, 0, 13);
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
