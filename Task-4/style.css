@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #00ffdd;
+}
+
+.container {
+  width: 40%;
+  height: 60vh;
+  background-color: #003cff;
+  padding: 15px;
+  display: block;
+  border: 2px solid white;
+  margin: 10vh auto;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 5x 10px 20px black;
+  font-family: serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+.screen {
+  height: 10vh;
+  background-color: #2a2e45;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-size: medium;
+  color: white;
+  width: 100%;
+  cursor: default;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.number:hover,
+.equal:hover,
+.operator:hover,
+.clear:hover {
+  transition: 0.2s ease-in;
+  background-color: #4b09ff;
+  color: white;
+  transform: scale(1.04);
+}
+
+.operator:hover {
+  background-color: #4b09ff;
+}
+
+input[type="text"] {
+  width: 96%;
+}
+
+input[type="button"]:active {
+  background-color: #ee04cf;
+}
+
+.operator,
+.clear,
+.equal {
+  background-color: #0fc0a2;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  width: 100%;
+  height: 10vh;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.number {
+  background-color: #f9e9ec;
+  border-radius: 5px;
+  padding: 5px;
+  height: 10vh;
+  color: black;
+  border: 2px solid black;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.clear {
+  background-color: #d46e00;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 13vh;
+  margin-left: 2px;
+}
+
+.clear:hover {
+  background-color: #ab2346;
+}
+
+.equal {
+  background-color: #09ff00;
+}
+
+.equal:hover {
+  background-color: #01baef;
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
